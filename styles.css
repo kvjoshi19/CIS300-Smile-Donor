@@ -200,7 +200,7 @@ nav a:hover {
 .about {
   max-width: 900px;
   margin: 40px auto;
-  padding: 20px;
+  padding: 16px;
   text-align: center;
 }
 .about h2 {
@@ -217,7 +217,7 @@ nav a:hover {
 }
 .leadership {
   max-width: 900px;
-  margin: 20px auto 40px auto;
+  margin: 20px auto 60px auto;
   text-align: center;
 }
 .leadership h3 {
@@ -234,6 +234,8 @@ nav a:hover {
 }
 .leader {
   text-align: center;
+  border-radius: 12px;
+  overflow: hidden;
 }
 .leader img {
   width: 180px;
