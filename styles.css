@@ -116,7 +116,6 @@ nav a:hover {
   font-size: 1.3rem;
   margin-bottom: 12px;
 }
-
 .get-involved button {
   display: block;
   width: 100%;
@@ -137,7 +136,6 @@ nav a:hover {
   font-size: 1.3rem;
   margin-bottom: 10px;
 }
-
 .socials a {
   color: var(--secondary);
   font-size: 1.1rem;
@@ -169,18 +167,15 @@ nav a:hover {
   padding: 12px;
   text-align: center;
 }
-
 .program-image {
   overflow: hidden;              
   border-radius: 12px;
 }
-
 .program-image img{
   display: block;
   width: 100%;
   height: auto;
 }
-
 .program-item p {
   margin: 12px;
   font-weight: 600;
@@ -201,6 +196,62 @@ nav a:hover {
 .view-more:hover{ 
   background-color: var(--accent);
   color: var(--text);
+}
+.about {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+.about h2 {
+  color: var(--primary);
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 750px;
+  margin: 0 auto 40px auto;
+  color: var(--text);
+}
+.leadership {
+  max-width: 900px;
+  margin: 20px auto 40px auto;
+  text-align: center;
+}
+.leadership h3 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: var(--primary);
+}
+.leader-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.leader {
+  text-align: center;
+}
+.leader img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid var(--accent);
+}
+.leader h4 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+.leader p {
+  color: var(--secondary);
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
 }
 footer {
   background: var(--accent);    
