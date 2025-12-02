@@ -116,7 +116,7 @@ nav a:hover {
   font-size: 1.3rem;
   margin-bottom: 12px;
 }
-.get-involved button {
+.donate button {
   display: block;
   width: 100%;
   padding: 12px;
@@ -128,9 +128,13 @@ nav a:hover {
   font-size: 1rem;
   font-weight: bolder;
 }
-.get-involved button:hover {
+.donate button:hover {
   background-color: var(--accent);
   color: var(--text);
+}
+.donate a {
+  text-align: center;
+  text-decoration: none;
 }
 .follow-us h4 {
   font-size: 1.3rem;
@@ -378,6 +382,83 @@ td {
 .contact-button:hover{ 
   background-color: var(--accent);
   color: var(--text);
+}
+.contact {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 16px;
+  text-align: center;
+}
+.contact h2 {
+  text-align: center;
+  color: var(--primary);
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+.contact p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text);
+  text-align: center;
+  margin-bottom: 40px;
+}
+.contact-container {
+  display: flex;
+  gap: 60px;
+  margin-top: 20px;
+}
+.contact-form {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.contact-form label {
+  text-align: left;
+  font-weight: 600;
+}
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  font-size: 1rem;
+}
+.submit-btn {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 12px;
+  background-color: var(--primary);
+  color: var(--background);
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+}
+.submit-btn:hover{ 
+  background-color: var(--accent);
+  color: var(--text);
+}
+.direct-email {
+  flex: 1;
+  border-left: 2px solid var(--accent);
+  padding-left: 20px;
+}
+.direct-email h3 {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: var(--primary);
+  text-align: center;
+}
+.direct-email a {
+  text-decoration: none;
+  color: var(--secondary);
 }
 footer {
   background: var(--accent);    
